@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "./static/css/main.c2e73be6.chunk.css",
+    "main.js": "./static/js/main.d8dc133d.chunk.js",
+    "main.js.map": "./static/js/main.d8dc133d.chunk.js.map",
+    "runtime~main.js": "./static/js/runtime~main.d653cc00.js",
+    "runtime~main.js.map": "./static/js/runtime~main.d653cc00.js.map",
+    "static/js/2.6efc73d3.chunk.js": "./static/js/2.6efc73d3.chunk.js",
+    "static/js/2.6efc73d3.chunk.js.map": "./static/js/2.6efc73d3.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.6515cefaadfb0c0ccdea96ba9f48b0de.js": "./precache-manifest.6515cefaadfb0c0ccdea96ba9f48b0de.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/main.c2e73be6.chunk.css.map": "./static/css/main.c2e73be6.chunk.css.map",
+    "static/media/ada-inherit.png": "./static/media/ada-inherit.883c6372.png",
+    "static/media/adivina-numero.png": "./static/media/adivina-numero.0927b6a0.png",
+    "static/media/anonymous-proxy.png": "./static/media/anonymous-proxy.6284b6b2.png",
+    "static/media/awesome-cards.png": "./static/media/awesome-cards.3c80543c.png",
+    "static/media/styles.scss": "./static/media/background-img.a02e282d.jpg",
+    "static/media/bmind-calendar.png": "./static/media/bmind-calendar.55b6f4c6.png",
+    "static/media/buscador-series.png": "./static/media/buscador-series.b4514f36.png",
+    "static/media/food-memory-game.png": "./static/media/food-memory-game.4601ab6f.png",
+    "static/media/harry-potter-directory.png": "./static/media/harry-potter-directory.857745f9.png",
+    "static/media/mood-calendar.png": "./static/media/mood-calendar.ccf9d303.png",
+    "static/media/picture.png": "./static/media/picture.1a7d6d58.png",
+    "static/media/pokedex.png": "./static/media/pokedex.de16efdd.png"
+  }
+}
