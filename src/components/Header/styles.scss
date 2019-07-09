@@ -5,6 +5,9 @@
     justify-content: center;
     padding-left: 30px;
     position: relative;
+    background: url('../../images/background-img.jpg') center center no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
     @media all and (min-width:768px) {
         padding-left: 70px;
     }
