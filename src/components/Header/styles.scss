@@ -1,0 +1,39 @@
+.page__header{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 30px;
+    position: relative;
+    @media all and (min-width:768px) {
+        padding-left: 70px;
+    }
+}
+
+.header__hero{
+    font-family: 'Montserrat', sans-serif;
+    background-color:rgba(2, 32, 49, 0.8);
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    width: fit-content;
+    @media all and (min-width:768px) {
+        font-size: 50px;    }
+}
+
+.sub{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 300;
+}
+
+.fas{
+    align-self: center;
+    position: absolute;
+    bottom: 0px;
+    color: #23a39d;
+    font-size: 30px;
+    &:hover{
+        transform: scale(1.2);
+        color: #6DBA8C;
+    }
+}

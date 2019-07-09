@@ -1,0 +1,29 @@
+.section__projects{
+    width: 300px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    @media all and (min-width:768px) {
+        width: 750px;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    @media all and (min-width:1280px) {
+        width: 1200px;
+    }
+}
+
+.section__title{
+    font-size: 34px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    border-bottom: 1px solid #dfdfdf;
+    padding: 5px 0;
+    margin: 70px auto 20px;
+}
+
+.section__portfolio {
+    min-height: 100vh;
+    background-color: #fff;
+}

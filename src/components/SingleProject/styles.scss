@@ -1,0 +1,80 @@
+.card__container{
+    width: 250px;
+
+    list-style: none;
+    margin: 30px 50px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #dfdfdf;
+    padding-bottom: 30px;
+    @media all and (min-width:768px) {
+        width: 350px;
+    }
+    @media all and (min-width:1280px) {
+        width: 500px;
+    }
+}
+
+.card__info{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    margin: 20px;
+    font-size: 14px;
+    @media all and (min-width:768px) {
+        width: 350px;
+    }
+    @media all and (min-width:1280px) {
+        width: 500px;
+    }
+}
+
+.card__img{
+    width: 250px;
+    box-shadow: 0px 0px 10px #dfdfdf;
+    @media all and (min-width:768px) {
+        width: 350px;
+    }
+    @media all and (min-width:1280px) {
+        width: 500px;
+    }
+
+}
+
+.card__title{
+    // margin: 15px auto 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.pair{
+    order: 1;
+}
+
+.card__link{
+    text-decoration: none;
+    margin: 5px;
+        &-text{
+        color: black;
+        background-color:white;
+        border: 1px solid #dfdfdf;
+        font-weight: bold;
+        width: 100px;
+        height: 30px;
+        text-align: center;
+            &:hover{
+                border: 0;
+                background-color: black;
+                color:white;
+            }
+        }
+}
+
+.card__description{
+    flex-grow: 1;
+}
+
+.card-links__container{
+    display: flex;
+    justify-content: space-around;
+}
