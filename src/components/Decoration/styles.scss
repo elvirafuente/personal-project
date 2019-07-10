@@ -6,5 +6,13 @@
         color: rgba(109, 186, 140, 0.2);
         position: absolute;
         z-index: 5;
+        height: 6990px;
+        overflow: hidden;
+    }
+    @media all and (min-width:1280px) {
+        height: 5325px;
+    }
+    @media all and (min-width:1920px) {
+        height: 6448px;
     }
 }

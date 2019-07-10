@@ -1,9 +1,9 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import './styles.scss';
 
 function Decoration() {
     let numbers = [];
-    for(let i = 1 ; i< 150; i++){
+    for(let i = 1 ; i< 500; i++){
         let acc = i;
         numbers.push(acc)
     }

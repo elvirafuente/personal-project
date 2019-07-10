@@ -9,7 +9,7 @@ function Header() {
                 <p className="header__hero">Soy Elvira Fuente,</p>
                 <h1 className="header__hero sub">Programadora Front End.</h1>
             </div>
-            <i class="fas fa-chevron-down"></i>
+            <i className="fas fa-chevron-down header__ico"></i>
 
         </header>
     )
