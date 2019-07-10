@@ -1,6 +1,7 @@
 import React from 'react';
 import './styles.scss';
-import Decoration from '../Decoration'
+import Decoration from '../Decoration';
+import Arrow from '../../images/arrow.png'
 
 function Header() {
     return (
@@ -10,7 +11,7 @@ function Header() {
                 <p className="header__hero">Hola!</p>
                 <p className="header__hero">Soy Elvira Fuente,</p>
                 <h1 className="header__hero sub">Programadora Front End.</h1>
-                <i className="fas fa-chevron-down header__ico"></i>
+                <img className="header__ico" src={Arrow} alt="arrow"/>
 
             </div>
 
