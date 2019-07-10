@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "./static/css/main.6ec15e71.chunk.css",
+    "main.css": "./static/css/main.263636a3.chunk.css",
     "main.js": "./static/js/main.53d2b06e.chunk.js",
     "main.js.map": "./static/js/main.53d2b06e.chunk.js.map",
     "runtime~main.js": "./static/js/runtime~main.d653cc00.js",
@@ -8,9 +8,9 @@
     "static/js/2.6efc73d3.chunk.js": "./static/js/2.6efc73d3.chunk.js",
     "static/js/2.6efc73d3.chunk.js.map": "./static/js/2.6efc73d3.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.d5c2a002a8368f6b19b9ce90c098751d.js": "./precache-manifest.d5c2a002a8368f6b19b9ce90c098751d.js",
+    "precache-manifest.3b42381da3156fcb23acc80810f669a4.js": "./precache-manifest.3b42381da3156fcb23acc80810f669a4.js",
     "service-worker.js": "./service-worker.js",
-    "static/css/main.6ec15e71.chunk.css.map": "./static/css/main.6ec15e71.chunk.css.map",
+    "static/css/main.263636a3.chunk.css.map": "./static/css/main.263636a3.chunk.css.map",
     "static/media/ada-inherit.png": "./static/media/ada-inherit.883c6372.png",
     "static/media/adivina-numero.png": "./static/media/adivina-numero.0927b6a0.png",
     "static/media/anonymous-proxy.png": "./static/media/anonymous-proxy.6284b6b2.png",
