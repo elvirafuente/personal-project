@@ -3,7 +3,7 @@ import './styles.scss';
 
 function Decoration() {
     let numbers = [];
-    for(let i = 1 ; i< 500; i++){
+    for(let i = 1 ; i< 80; i++){
         let acc = i;
         numbers.push(acc)
     }
