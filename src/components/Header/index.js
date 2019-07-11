@@ -12,7 +12,6 @@ function Header() {
                 <p className="header__hero">Hola!</p>
                 <p className="header__hero">Soy Elvira Fuente,</p>
                 <h1 className="header__hero sub">Programadora Front End.</h1>
-                <img className="header__ico" src={Arrow} alt="arrow"/>
             </div>
             <Menu />
         </header>

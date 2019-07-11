@@ -1,19 +1,26 @@
 .page__menu{
+    font-size: 14px;
     list-style: none;
     color:white;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     transform: rotate(90deg);
     position: fixed;
     transform-origin: left top 0;
     top:10px;
     width: 100vh;
     color: rgba(109, 186, 140, 0.8);
+    @media all and (min-width:768px) {
+        font-size: 20px; 
+        justify-content: center;   
+    }
 }
 
 .menu__item{
-   height: 30px;
-   min-width: 100px;
-   margin: 10px;
-   font-weight: 700;
+    min-width: 70px;
+    margin: 5px;
+    font-weight: 700;
+    @media all and (min-width:768px) {
+        min-width: 100px;
+    }
 }

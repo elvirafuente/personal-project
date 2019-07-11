@@ -29,23 +29,12 @@
     justify-content: center;
     position: relative;
     margin-left: 10px;
+    @media all and (min-width:768px) {
+        margin-left: 5px;   
+    }
 }
 
 .sub{
     font-family: 'Roboto Mono', monospace;
     font-weight: 300;
-}
-
-.header__ico{
-    align-self: center;
-    position: absolute;
-    bottom: 10px;
-    color: #23a39d;
-    font-size: 30px;
-    width: 30px;
-    height: 30px;
-    &:hover{
-        transform: scale(1.2);
-        cursor: pointer;
-    }
 }
