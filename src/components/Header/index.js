@@ -1,7 +1,8 @@
 import React from 'react';
 import './styles.scss';
 import Decoration from '../Decoration';
-import Arrow from '../../images/arrow.png'
+import Arrow from '../../images/arrow.png';
+import Menu from '../Menu';
 
 function Header() {
     return (
@@ -12,9 +13,8 @@ function Header() {
                 <p className="header__hero">Soy Elvira Fuente,</p>
                 <h1 className="header__hero sub">Programadora Front End.</h1>
                 <img className="header__ico" src={Arrow} alt="arrow"/>
-
             </div>
-
+            <Menu />
         </header>
     )
 }

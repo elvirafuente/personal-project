@@ -1,6 +1,5 @@
 .card__container{
     width: 250px;
-
     list-style: none;
     margin: 30px 50px;
     background-color: white;
@@ -43,7 +42,6 @@
 }
 
 .card__title{
-    // margin: 15px auto 5px;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -60,7 +58,6 @@
         border: 1px solid #dfdfdf;
         font-weight: bold;
         width: 100px;
-        height: 30px;
         text-align: center;
             &:hover{
                 border: 0;

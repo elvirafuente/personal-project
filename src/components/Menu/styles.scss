@@ -1,0 +1,19 @@
+.page__menu{
+    list-style: none;
+    color:white;
+    display: flex;
+    justify-content: center;
+    transform: rotate(90deg);
+    position: fixed;
+    transform-origin: left top 0;
+    top:10px;
+    width: 100vh;
+    color: rgba(109, 186, 140, 0.8);
+}
+
+.menu__item{
+   height: 30px;
+   min-width: 100px;
+   margin: 10px;
+   font-weight: 700;
+}

@@ -13,7 +13,6 @@
 }
 
 .contact__list{
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -37,14 +36,23 @@
     @media all and (min-width:1280px) {
         margin: 20px;
     }
+    &:hover{
+        background-color:rgb(1, 14, 22);
+
+    }
+}
+
+.contact__link{
+    text-decoration: none;
+    color: inherit;
+    &:hover{
+        transform: scale(1.02);
+    }
 }
 
 .contact__ico{
-    font-size: 20px;
+    width: 40px;
     padding-right: 10px;
-    @media all and (min-width:1280px) {
-        font-size: 40px;
-    }
 }
 
 .ico__text{

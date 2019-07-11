@@ -66,7 +66,7 @@ const projects = [
     {
         id: 9,
         name: 'Food memory game',
-        description: 'Juego de parejas hecho con Javascript ES6',
+        description: 'Clásico juego memory que consiste en hacer paréjas de cartas iguales. Programado con Javascript ES6',
         img: require('../images/projects/food-memory-game.png'),
         urlCode:'https://github.com/elvirafuente/food-memory-game',
         urlDemo:'https://elvirafuente.github.io/food-memory-game/',
