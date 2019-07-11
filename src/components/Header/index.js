@@ -1,10 +1,10 @@
 import React from 'react';
 import './styles.scss';
 import Decoration from '../Decoration';
-import Arrow from '../../images/arrow.png';
 import Menu from '../Menu';
 
-function Header() {
+function Header(props) {
+    const {openMenu, menuDisplayed} = props;
     return (
         <header className="page__header">
             <Decoration />
@@ -13,7 +13,7 @@ function Header() {
                 <p className="header__hero">Soy Elvira Fuente,</p>
                 <h1 className="header__hero sub">Programadora Front End.</h1>
             </div>
-            <Menu />
+            <Menu openMenu={openMenu} menuDisplayed={menuDisplayed}/>
         </header>
     )
 }

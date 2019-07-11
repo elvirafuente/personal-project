@@ -51,8 +51,11 @@
 }
 
 .contact__ico{
-    width: 40px;
+    width: 30px;
     padding-right: 10px;
+    @media all and (min-width:768px) {
+        width: 40px;
+    }
 }
 
 .ico__text{

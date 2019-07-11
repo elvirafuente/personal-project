@@ -4,13 +4,31 @@ import Header from './Header';
 import Main from './Main';
 // import Decoration from './Decoration'
 
-class App extends Component {
+class App extends Component{
+  constructor(props){
+    super(props);
+    this.state = {
+      menuDisplayed: false,
+    }
+    this.openMenu = this.openMenu.bind(this);
+  }
+
+  openMenu(event){
+    console.log(event);
+    this.setState( prevState => {
+      return {
+        menuDisplayed: !prevState.menuDisplayed,
+      }
+    })
+  }
+
   render() {
+    const { menuDisplayed } = this.state;
     return (
       <Fragment>
         {/* <Decoration /> */}
         <div className="page__container">
-          <Header />
+          <Header openMenu={this.openMenu} menuDisplayed={menuDisplayed}/>
           <Main />
         </div>
       </Fragment>

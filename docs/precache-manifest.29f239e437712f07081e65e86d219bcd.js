@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c5def325f5f08b66a5042d8aab554575",
+    "revision": "bddc3a2733ed7ad3bde83961f5d63cba",
     "url": "./index.html"
   },
   {
-    "revision": "eac9495c2c55f91f8ab5",
-    "url": "./static/css/main.4154ebde.chunk.css"
+    "revision": "21d516eafb2b2aed7958",
+    "url": "./static/css/main.9cdb7b35.chunk.css"
   },
   {
-    "revision": "32ba428a442bce32e14e",
-    "url": "./static/js/2.249420ef.chunk.js"
+    "revision": "8c15c8795c8df42ad56e",
+    "url": "./static/js/2.84b72138.chunk.js"
   },
   {
-    "revision": "eac9495c2c55f91f8ab5",
-    "url": "./static/js/main.f529b746.chunk.js"
+    "revision": "21d516eafb2b2aed7958",
+    "url": "./static/js/main.9ae39824.chunk.js"
   },
   {
     "revision": "8c97409f0ee389fe75da",
@@ -54,6 +54,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "857745f96139649d5ba69f98958686ed",
     "url": "./static/media/harry-potter-directory.857745f9.png"
+  },
+  {
+    "revision": "c2ebbccac59700b620e6d723ddc309de",
+    "url": "./static/media/ico-close.c2ebbcca.svg"
+  },
+  {
+    "revision": "61f6f66db7f32f9fc468e082e164c38f",
+    "url": "./static/media/ico-menu.61f6f66d.svg"
   },
   {
     "revision": "ccf9d3030355f9d67270bcfa3b77d9c0",
