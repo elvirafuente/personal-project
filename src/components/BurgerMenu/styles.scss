@@ -1,0 +1,35 @@
+.burger__list{
+    position: fixed;
+    top: 50px;
+    right: -200px;
+    list-style: none;
+    text-align: right;
+    opacity: 0;
+    transition: opacity 1s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    z-index: 2;
+}
+
+.burger__list--open{
+    right: 0px;
+    opacity: 1;
+    transition: opacity 0.3s ease-out;
+}
+
+.burger__item{
+    font-size: 18px;
+    padding: 0 5px;
+    margin: 5px 0;
+    background-color: rgba(2, 32, 49, 0.9);
+    width: fit-content;
+    text-align: right;
+    & a{
+        text-decoration: none;
+        color: white;
+        &:hover{
+            font-weight: 700;
+        } 
+    }
+}

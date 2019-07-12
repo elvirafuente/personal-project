@@ -1,51 +1,55 @@
 .page__menu{
-    display: flex;
-    flex-direction: column;
-    position: fixed;
-    right: 0;
-    align-items: flex-end;
-}
-
-.page__menu-list{
-    font-size: 14px;
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    opacity: 100%;
-    @media all and (min-width:768px) {
-        font-size: 20px; 
-    }
-}
-
-.menu__item{
-    margin-top: 5px;
-    text-align: end;
-    background-color:#022031;
     width: fit-content;
-    color: rgba(255, 255, 255, 0.8);
-    &:hover{
-        opacity: 1;
-        color: rgba(255, 255, 255, 1);
+    right: 0;
+    position: fixed;
+    top:0;
+    z-index: 2;
+    background-color: rgba(2, 32, 49, 0.9);
+    @media all and (min-width:768px) {
+        width: 100%;
+        display: flex;
+        align-items: center;
+
     }
 }
 
 .menu__button{
     width: 40px;
     height: 40px;
-    background: url('../../images/ico-menu.svg') center no-repeat #022031;
+    background: url('../../images/ico-menu.svg') no-repeat center;
     background-size: contain;
-    border: 0;
-    color: transparent;
-    opacity: 0.8;
-    &:hover{
-        opacity: 1;   
-    }
-    &--opened{
-        background: url('../../images/ico-close.svg') center no-repeat #022031;
+    border:0;
+    color:transparent;
+    font-size: 1px;
+    cursor: pointer;
+    @media all and (min-width:768px) {
+     display: none;
     }
 }
 
-.hidden{
-    visibility: hidden;
+.menu__button--open{
+    background: url('../../images/ico-close.svg') no-repeat center;
+    background-size: contain;
+}
+
+.page__menu-list{
+    list-style: none;
+    display: none;
+    @media all and (min-width:768px) {
+        display: flex;
+        justify-content: center;
+        flex-grow: 1;   
+    }
+}
+
+.menu__item{
+    padding: 0 15px;
+
+    & a{
+    text-decoration: none;
+    color: #ffffff;
+        &:hover{
+            font-weight: 700;
+        } 
+    }
 }

@@ -6,13 +6,13 @@ function Menu(props) {
 
     return (
         <nav className="page__menu">
-            <button type="button" className="menu__button" onClick={openMenu}>menu</button>
-            <ul className={`page__menu-list ${menuDisplayed ?'': `hidden`}`}>
-                <li className="menu__item">sobre mí</li>
-                <li className="menu__item">habilidades</li>
-                <li className="menu__item">proyectos</li>
-                <li className="menu__item">contacto</li>
+            <ul className="page__menu-list" >
+                <li className="menu__item"><a href="/">sobre mí</a></li>
+                <li className="menu__item"><a href="/">habilidades</a></li>
+                <li className="menu__item"><a href="/">proyectos</a></li>
+                <li className="menu__item"><a href="/">contacto</a></li>
             </ul>
+            <button type="menu__button" className={`menu__button ${menuDisplayed ? 'menu__button--open' : ''}`} onClick={openMenu}>menu</button>
         </nav>
     )
 }
