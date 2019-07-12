@@ -2,7 +2,7 @@ const projects = [
     {
         id: 1,
         name: 'BMind Calendar',
-        description: 'App para elegir las vacaciones de los empleados de la empresa BMind.',
+        description: 'App para elegir las vacaciones de los empleados de la empresa BMind. Programado con ReactJS, utilizando la librería React-Yearly-Calendar',
         img: require('../images/projects/bmind-calendar.png'),
         urlCode:'https://github.com/elvirafuente/BMind-Holidays?organization=elvirafuente&organization=elvirafuente',
         urlDemo:'https://beta.adalab.es/f-m4-bmind-calendar/#/',
@@ -10,7 +10,7 @@ const projects = [
     {
         id: 4,
         name: 'Pokedex',
-        description: 'Directorio de personajes de Pokemon.',
+        description: 'Directorio de personajes de Pokemon. Programado con la librería de JavaScript, ReactJS. La información se consigue de una API pública. Maquetación responsive',
         img: require('../images/projects/pokedex.png'),
         urlCode:'https://github.com/elvirafuente/pokedex',
         urlDemo:'https://beta.adalab.es/f-online-pokemon-elvirafuente/#/',
@@ -18,7 +18,7 @@ const projects = [
     {
         id: 3,
         name: 'Awesome profile cards',
-        description: 'Awesome profile cards. Código heredado. Refactorización y migración de un proyecto heredado a ReactJS',
+        description: 'Awesome profile cards. Código heredado. Refactorización y migración de un proyecto de JavaScript a ReactJS',
         img: require('../images/projects/awesome-cards.png'),
         urlCode:'https://github.com/elvirafuente/Awesome-profile-cards---React',
         urlDemo:'https://beta.adalab.es/fairfax-m3-masters-of-react/#/',
@@ -26,7 +26,7 @@ const projects = [
     {
         id: 2,
         name: 'Anonymous proxy',
-        description: 'Maquetación HTML y CSS',
+        description: 'Maquetación responsive con HTML5 y SASS',
         img: require('../images/projects/anonymous-proxy.png'),
         urlCode:'https://github.com/elvirafuente/Anonymous-proxy',
         urlDemo:'http://beta.adalab.es/f-m1-evaluacion-final-hebebicho/',
@@ -34,7 +34,7 @@ const projects = [
     {
         id: 6,
         name: 'Mood calendar',
-        description: 'App para registrar los estados de ánimo.',
+        description: 'App para registrar los estados de ánimo. Programado utilizando la librería de JavaScript, ReactJS. Los estados introducidos se quedan almacenados de forma local en el navegador. ',
         img: require('../images/projects/mood-calendar.png'),
         urlCode:'https://github.com/elvirafuente/Mood-calendar',
         urlDemo:'https://beta.adalab.es/f-online-life-calendar-elvirafuente/#/',
@@ -42,7 +42,7 @@ const projects = [
     {
         id: 5,
         name: 'ada:inherit;',
-        description: 'Maquetación de web grupal de presentación.',
+        description: 'Maquetación de web responsive de presentación de un grupo de desarrolladoras Front End. Diseño responsive con HTML5 y SASS. Con pequeñas animaciones y transiciones CSS',
         img: require('../images/projects/ada-inherit.png'),
         urlCode:'https://github.com/elvirafuente/ada-inherit?organization=elvirafuente&organization=elvirafuente',
         urlDemo:'https://beta.adalab.es/f-m1-ada-inherit-/',
@@ -50,7 +50,7 @@ const projects = [
     {
         id: 7,
         name: `Juego 'Adivina el ńumero'`,
-        description: 'Juego hecho con Javascript ES6',
+        description: 'Juego hecho con Javascript ES6. Maquetación responsive con HTML5 y SASS.',
         img: require('../images/projects/adivina-numero.png'),
         urlCode:'https://github.com/elvirafuente/guess-the-number',
         urlDemo:'https://beta.adalab.es/f-m2-evaluacion-intermedia-hebebicho/',
@@ -58,7 +58,7 @@ const projects = [
     {
         id: 8,
         name: 'Buscador de series',
-        description: 'Directorio de series hecho con Javascript ES6',
+        description: 'Directorio de series hecho con Javascript ES6. La información se recoge de una API pública. Con una sección con tus series favoritas, además de guardarlas localmente en tu ordenador.',
         img: require('../images/projects/buscador-series.png'),
         urlCode:'https://github.com/elvirafuente/buscador-de-series',
         urlDemo:'http://beta.adalab.es/f-m2-evaluacion-final-hebebicho/',
@@ -66,7 +66,7 @@ const projects = [
     {
         id: 9,
         name: 'Food memory game',
-        description: 'Clásico juego memory que consiste en hacer paréjas de cartas iguales. Programado con Javascript ES6',
+        description: 'Clásico juego memory que consiste en hacer parejas de cartas iguales. Programado con Javascript ES6 y con maquetación responsive, con HTML5 y CSS3.',
         img: require('../images/projects/food-memory-game.png'),
         urlCode:'https://github.com/elvirafuente/food-memory-game',
         urlDemo:'https://elvirafuente.github.io/food-memory-game/',
@@ -74,7 +74,7 @@ const projects = [
     {
         id: 10,
         name: 'Harry Potter directory',
-        description: `Directorio de personajes de Harry Potter. La información sobre ellos, se obtiene de la API pública 'https://hp-api.herokuapp.com/'. Con una maquetación responsive, hecha con HTML5 y CSS3. Programado con ReactJS.`,
+        description: `Directorio de personajes de Harry Potter. La información sobre ellos se obtiene con una petición a una API pública. Maquetación responsive, con HTML5 y SASS. Programado con ReactJS.`,
         img: require('../images/projects/harry-potter-directory.png'),
         urlCode:'https://github.com/elvirafuente/Harry-Potter-directory',
         urlDemo:'http://beta.adalab.es/f-m3-evaluacion-final-elvirafuente/#/',

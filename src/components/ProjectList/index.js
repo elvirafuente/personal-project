@@ -1,6 +1,6 @@
 import React from 'react';
 import SingleProject from '../SingleProject';
-import { projects } from '../../info/projects';
+import { projects } from '../../services/projects';
 import './styles.scss'
 
 function ProjectList() {
