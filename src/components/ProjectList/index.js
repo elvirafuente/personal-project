@@ -5,7 +5,7 @@ import './styles.scss'
 
 function ProjectList() {
     return (
-        <section className="section__portfolio">
+        <section className="section__portfolio" id="projects">
             <h2 className="section__title">Proyectos</h2>
             <ul className="section__projects">
                 {projects

@@ -2,7 +2,6 @@ import React from 'react';
 import './styles.scss';
 import Decoration from '../Decoration';
 import Menu from '../Menu';
-import Arrow from '../../images/arrow.png'
 import BurgerMenu from '../BurgerMenu';
 
 function Header(props) {
@@ -11,7 +10,7 @@ function Header(props) {
         <header className="page__header">
             <Decoration />
             <Menu openMenu={openMenu} menuDisplayed={menuDisplayed} />
-            <BurgerMenu menuDisplayed={menuDisplayed}/>
+            <BurgerMenu  openMenu={openMenu} menuDisplayed={menuDisplayed}/>
 
             <div className="page__header-container">
                 <div className="page__hero-container">

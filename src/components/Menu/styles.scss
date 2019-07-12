@@ -9,7 +9,9 @@
         width: 100%;
         display: flex;
         align-items: center;
-
+        background: url('../../images/background-img.jpg') center center no-repeat;
+        background-attachment: fixed;
+        background-size:cover;
     }
 }
 
@@ -44,10 +46,10 @@
 
 .menu__item{
     padding: 0 15px;
-
+    cursor: pointer;
     & a{
     text-decoration: none;
-    color: #ffffff;
+    color: #83d4c0;
         &:hover{
             font-weight: 700;
         } 

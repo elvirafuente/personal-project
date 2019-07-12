@@ -3,6 +3,10 @@
     background-attachment: fixed;
     background-size:cover;
     padding: 50px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .contact-title{

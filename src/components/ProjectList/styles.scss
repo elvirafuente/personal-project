@@ -13,7 +13,6 @@
     }
     @media all and (min-width:1280px) {
         width: 1200px;
-
     }
 }
 
@@ -23,7 +22,10 @@
     text-align: center;
     border-bottom: 1px solid #dfdfdf;
     padding: 5px 0;
-    margin: 70px auto 20px;
+    margin: 30px auto 10px;
+    @media all and (min-width:768px) {
+        margin: 70px auto 20px;
+    }
 }
 
 .section__portfolio {
