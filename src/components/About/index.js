@@ -11,11 +11,11 @@ function About() {
                 <div className="section__content">
                     <img src={ProfilePicture} alt="Elvira Fuente" className="section__image" />
                     <div className="section__description-container">
-                        <p className="section__description">Programadora Front-End y diseñadora gráfica.
+                        <p className="section__description">Programadora Front-End y diseñadora gráfica.</p>
 
-Me apasionan los procesos de construcción y la unión de la creatividad con la lógica. Veo la programación como un motor tan apasionante como el arte.
+                        <p className="section__description">Me apasionan los procesos de construcción y la unión de la creatividad con la lógica. Veo la programación como un motor tan apasionante como el arte.</p>
 
-Me gusta formar parte de equipos en los que sienta que puedo aportar, y además nutrirme de la experiencia y conocimientos de las personas que me rodean. Soy una persona con iniciativa, activa y curiosa. Me ilusiona investigar y aprender cosas nuevas constantemente.</p>
+                        <p className="section__description">Me gusta formar parte de equipos en los que sienta que puedo aportar, y además nutrirme de la experiencia y conocimientos de las personas que me rodean. Soy una persona con iniciativa, activa y curiosa. Me ilusiona investigar y aprender cosas nuevas constantemente.</p>
                         <a href={CV} target="_blank" rel="noopener noreferrer" className="card__link"><p className="card__link-text">ver CV</p></a>
                     </div>
                 </div>
@@ -40,7 +40,7 @@ Me gusta formar parte de equipos en los que sienta que puedo aportar, y además 
                     <p className="item item2">]</p>
                 </div>
                 <div className="array-container">
-                    <p className="item item1">metodologías =</p>
+                    <p className="item item1">marco de trabajo =</p>
                     <p className="item item2">[</p>
                     <p className="item item2">Agile,</p>
                     <p className="item item2">SCRUM</p>

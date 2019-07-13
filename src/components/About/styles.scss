@@ -13,16 +13,20 @@
     flex-direction: column;
     margin: auto;
     align-items: center;
-    width: 300px;
+    max-width: 300px;
     font-size: 16px;
     @media all and (min-width:768px) {
-        width: 750px;
+        max-width: 1000px;
         flex-direction: row;
+        align-items: flex-start;
         font-size: 18px;
+        padding: 0 50px;
+        justify-content: center;
+
     }
     
     @media all and (min-width:1280px) {
-        width: 1200px;
+        min-width: 1200px;
         font-size: 24px;
     }
 }
@@ -30,8 +34,8 @@
 
 .section__image{
     width: 300px;
-    margin: 15px;
-    @media all and (min-width:768px) {
+    margin: 0 15px 15px;
+    @media all and (min-width:1280px) {
         width: 400px;
     }
 }
@@ -95,4 +99,8 @@
 .section__description-container{
     display: flex;
     flex-direction: column;
+}
+
+.section__description{
+    padding-bottom: 10px;
 }
