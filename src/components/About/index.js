@@ -11,7 +11,11 @@ function About() {
                 <div className="section__content">
                     <img src={ProfilePicture} alt="Elvira Fuente" className="section__image" />
                     <div className="section__description-container">
-                        <p className="section__description">Programadora Front-End y diseñadora gráfica. Me apasionan los procesos de construcción. Veo la programación como un medio de creación tan apasionante como el arte. Me gusta formar parte de equipos en los que sienta que puedo aportar, y además nutrirme de la experiencia y conocimientos de las personas que me rodean. Soy muy curiosa y me ilusiona aprender cosas nuevas constantemente.</p>
+                        <p className="section__description">Programadora Front-End y diseñadora gráfica.
+
+Me apasionan los procesos de construcción y la unión de la creatividad con la lógica. Veo la programación como un motor tan apasionante como el arte.
+
+Me gusta formar parte de equipos en los que sienta que puedo aportar, y además nutrirme de la experiencia y conocimientos de las personas que me rodean. Soy una persona con iniciativa, activa y curiosa. Me ilusiona investigar y aprender cosas nuevas constantemente.</p>
                         <a href={CV} target="_blank" rel="noopener noreferrer" className="card__link"><p className="card__link-text">ver CV</p></a>
                     </div>
                 </div>
